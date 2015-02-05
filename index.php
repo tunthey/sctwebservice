@@ -16,8 +16,8 @@ require_once("includes/component_loader.php");
             }
         header('Content-type: application/json');
        // header('Access-Control-Allow-Origin: *');
-      //  echo $_GET['callback'] . '('.json_encode($user).')';
-        echo json_encode($user);
+        echo $_GET['callback'] . '('.json_encode($user).')';
+      //  echo json_encode($user);
     	}
         
 ?>
